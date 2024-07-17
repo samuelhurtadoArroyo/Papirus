@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+	<RootNamespace>Papirus.WebApi.Api</RootNamespace>
+	<AssemblyName>Papirus.WebApi.Api</AssemblyName>	  
+	<InvariantGlobalization>false</InvariantGlobalization>
+	<UserSecretsId>43412546-0b6e-4f6d-a10c-4fbe0d00d60e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Compile Remove="Infrastructure\**" />
+	<Content Remove="Infrastructure\**" />
+	<EmbeddedResource Remove="Infrastructure\**" />
+	<None Remove="Infrastructure\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AutoMapper" Version="13.0.1" />
+	<PackageReference Include="FluentValidation" Version="11.9.0" />
+	<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+	<PackageReference Include="MicroElements.Swashbuckle.FluentValidation" Version="6.0.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\Application\Application.csproj" />
+	<ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Templates\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Templates\Guardianships\PLANTILLA 1. CONTESTACION SENCILLA TUTELA.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Templates\Guardianships\PLANTILLA 2. ESCRITO DE EMERGENCIA.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

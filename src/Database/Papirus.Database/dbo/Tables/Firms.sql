@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Firms]
+(
+	[Id] INT NOT NULL IDENTITY(1,1), 
+    [Name] VARCHAR(50) NOT NULL,
+	CONSTRAINT [PK_Firms] PRIMARY KEY CLUSTERED ([Id] ASC)
+)

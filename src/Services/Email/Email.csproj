@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>Papirus.Services.Email</RootNamespace>
+    <AssemblyName>Papirus.Services.Email</AssemblyName>
+    <UserSecretsId>f320aa7d-b3e0-4eb0-9ee3-113a04f28551</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\WebApi\Application\Application.csproj" />
+    <ProjectReference Include="..\..\WebApi\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

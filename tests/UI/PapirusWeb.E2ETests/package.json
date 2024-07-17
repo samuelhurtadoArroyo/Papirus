@@ -1,0 +1,26 @@
+{
+  "name": "papirusweb.e2e",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm --prefix ../../../src/UI/PapirusWeb run dev",
+    "test:login": "npx playwright test login.spec.js",
+    "test:processes": "npx playwright test processes.spec.js",
+    "test:navigation": "npx playwright test navigation.spec.js",
+    "test": "npx playwright test tests/",
+    "test:ui": "npx playwright test tests/ --ui",
+    "test:chrome": "npx playwright test tests/ --project=chromium",
+    "debug": "npx playwright test login.spec.js --project=chromium --debug",
+    "test:trace": "npx playwright test tests/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.12.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,12 @@
+global using FluentAssertions;
+global using Microsoft.Extensions.Configuration;
+global using Moq;
+global using NUnit.Framework;
+global using Papirus.Tests.Common.Define;
+global using Papirus.Tests.Common.Mothers;
+global using Papirus.Tests.Common.Security;
+global using Papirus.WebApi.Domain.Dtos;
+global using Papirus.WebApi.Domain.Entities;
+global using Papirus.WebApi.Domain.Exceptions;
+global using Papirus.WebApi.Domain.Interfaces.Repositories;
+global using System.Diagnostics.CodeAnalysis;

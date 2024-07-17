@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Papirus.WebApi.Domain</RootNamespace>
+    <AssemblyName>Papirus.WebApi.Domain</AssemblyName>
+  </PropertyGroup>
+
+</Project>

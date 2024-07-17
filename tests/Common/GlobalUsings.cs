@@ -1,0 +1,14 @@
+﻿global using AutoMapper;
+global using Bogus;
+global using Microsoft.Extensions.Configuration;
+global using Papirus.Tests.Common.Builders;
+global using Papirus.Tests.Common.Define;
+global using Papirus.WebApi.Api.Dtos;
+global using Papirus.WebApi.Application.Dtos;
+global using Papirus.WebApi.Application.Mapping;
+global using Papirus.WebApi.Domain.Common;
+global using Papirus.WebApi.Domain.Define;
+global using Papirus.WebApi.Domain.Dtos;
+global using Papirus.WebApi.Domain.Entities;
+global using System.Diagnostics.CodeAnalysis;
+global using System.Reflection;

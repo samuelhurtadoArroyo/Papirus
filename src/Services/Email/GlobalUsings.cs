@@ -1,0 +1,17 @@
+﻿global using Asp.Versioning;
+global using Asp.Versioning.ApiExplorer;
+global using AutoMapper;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Options;
+global using Microsoft.OpenApi.Models;
+global using Papirus.Services.Email.Configuration;
+global using Papirus.WebApi.Application.Common.Models.Options;
+global using Papirus.WebApi.Application.Interfaces;
+global using Papirus.WebApi.Application.Mapping;
+global using Papirus.WebApi.Application.Services;
+global using Papirus.WebApi.Domain.Interfaces.Repositories;
+global using Papirus.WebApi.Infrastructure.Common.Models;
+global using Papirus.WebApi.Infrastructure.Data;
+global using Papirus.WebApi.Infrastructure.Repositories;
+global using Papirus.WebApi.Infrastructure.Services;
+global using Swashbuckle.AspNetCore.SwaggerGen;
